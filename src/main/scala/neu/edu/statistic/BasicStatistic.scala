@@ -13,14 +13,13 @@ object BasicStatistic {
     val sc = new SparkContext(conf)
     val data = sc.textFile(sourceFile)
       .map(line => line.split(";"))
-      .map(record => (record(0),record(1),record(2),record(3),record(4),record(5),record(6),record(7),record(8),record(9),record(10),record(11),record(12),record(13),record(14),record(15),record(16),record(17),record(18),record(19)))
+      .map(record => (record(0), record(1), record(2), record(3), record(4), record(5), record(6), record(7), record(8), record(9), record(10), record(11), record(12), record(13), record(14), record(15), record(16), record(17), record(18), record(19)))
       .cache()
     val dataLine = sc.textFile(sourceFile).map(line => line.split(";")).cache()
     val numRecords = data.count()
-    val uniqueCountries = data.map{case (_,_,countryCitizen,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_) => countryCitizen}.distinct().count()
-    //val numChina = dataLine.filter(record => record(3) == "China").count()
+    val uniqueCountries = data.map { case (_, _, countryCitizen, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _) => countryCitizen }.distinct().count()
     val countriesByCoders = data
-      .map{case (_,_,countryCitizen,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_) => (countryCitizen, 1)}
+      .map { case (_, _, countryCitizen, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _, _) => (countryCitizen, 1) }
       .filter(map => map._1 != "NA")
       .reduceByKey(_ + _)
       .collect()
@@ -48,7 +47,7 @@ object BasicStatistic {
     val income5 = incomes.filter(incomes => incomes < 100000 && incomes >= 80000).count()
     val income6 = incomes.filter(incomes => incomes >= 100000).count()
     val incomeByCountry = dataLine
-      .filter(records => records(2) != "NA" && records(10) != "NA" && records(10) != "Income")
+      .filter(records => records(2) != "NA" && records(10) != "NA")
       .map(records => (records(2), records(10).toDouble))
       .groupByKey()
       .filter(_._2.size > 10)
@@ -56,7 +55,7 @@ object BasicStatistic {
       .filter(_._2 > 50000)
       .sortBy(-_._2)
     val incomeByAges = dataLine
-      .filter(records => records(0) != "NA" && records(0) != "Age" && records(10) != "NA" && records(10) != "Income")
+      .filter(records => records(0) != "NA" && records(10) != "NA")
       .map(records => (records(0).toInt, records(10).toDouble))
     val incomeByAge1 = incomeByAges
       .filter(_._1 < 20)
@@ -81,7 +80,7 @@ object BasicStatistic {
 
     println("Total records: " + numRecords)
     println("Unique countries: " + uniqueCountries)
-//    println("Top ten countries: %s with %d coders".format(top10Countries._1, top10Countries._2))
+    //    println("Top ten countries: %s with %d coders".format(top10Countries._1, top10Countries._2))
     top10Countries.foreach(println)
     println("Age distribution:")
     println("< 20: " + underTwenty)
