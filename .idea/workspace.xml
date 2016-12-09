@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9290c211-d8a5-4a4a-93e2-c8a90590686b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/neu/edu/prediction/LinearRegressionSpec.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/data/.part-r-00000-047147e8-a793-463c-b0e0-f443a7a300fd.gz.parquet.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/data/part-r-00000-047147e8-a793-463c-b0e0-f443a7a300fd.gz.parquet" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/IncomePredict$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/IncomePredict$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/IncomePredict$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/IncomePredict$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/IncomePredict$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/IncomePredict$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/neu/edu/prediction/IncomePredictSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData.csv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec$$anonfun$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.11/test-classes/LinearRegressionSpec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/data/.part-r-00000-f24c86ae-f147-40b1-bef5-9b14a1ee598a.gz.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/data/part-r-00000-f24c86ae-f147-40b1-bef5-9b14a1ee598a.gz.parquet" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$3.class" />
@@ -20,56 +26,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$$anonfun$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$10.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$11.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$12.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$17.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$18.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$19.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$20.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$21.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$22.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$23.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$24.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$24.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$25.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$25.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$26.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$26.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$27.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$27.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$28.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$28.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$29.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$29.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$30.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$30.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$31.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$31.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$32.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$32.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$33.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$33.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$34.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$34.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$35.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$35.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$36.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$36.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$37.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$37.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$38.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$38.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$39.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$39.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$40.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$40.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$41.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$41.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$42.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$42.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$43.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$43.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$8.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$9.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$main$2.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$$anonfun$main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/statistic/BasicStatistic$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression.class" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/neu/edu/prediction/LinearRegression.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/data/._metadata.crc" afterPath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/data/._metadata.crc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/data/_metadata" afterPath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/data/_metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/metadata/.part-00000.crc" afterPath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/metadata/.part-00000.crc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/neu/edu/prediction/IncomePredict.scala" afterPath="$PROJECT_DIR$/src/main/scala/neu/edu/prediction/IncomePredict.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/neu/edu/prediction/LinearRegression.scala" afterPath="$PROJECT_DIR$/src/main/scala/neu/edu/prediction/LinearRegression.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/neu/edu/statistic/BasicStatistic.scala" afterPath="$PROJECT_DIR$/src/main/scala/neu/edu/statistic/BasicStatistic.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/metadata/part-00000" afterPath="$PROJECT_DIR$/target/tmp/myLinearRegressionModel/metadata/part-00000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/neu/edu/prediction/LinearRegressionSpec.scala" afterPath="$PROJECT_DIR$/src/test/scala/neu/edu/prediction/LinearRegressionSpec.scala" />
     </list>
     <ignored path="Scala_final.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,9 +77,21 @@
       <file leaf-file-name="BasicStatistic.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/neu/edu/statistic/BasicStatistic.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="1026">
+              <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicStatistic_.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/neu/edu/statistic/BasicStatistic_.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-119">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <folding>
+                <element signature="e#27#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,8 +99,8 @@
       <file leaf-file-name="LinearRegression.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/neu/edu/prediction/LinearRegression.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+            <state relative-caret-position="367">
+              <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
               <folding>
                 <element signature="e#28#72#0" expanded="true" />
                 <element signature="n#!!doc;n#LinearRegression$#0;n#!!top" expanded="false" />
@@ -133,15 +109,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinearRegressionSpec.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinearRegressionSpec.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/neu/edu/prediction/LinearRegressionSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+            <state relative-caret-position="380">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
-                <element signature="n#!!doc;n#LinearRegressionSpec#0" expanded="false" />
+                <element signature="e#28#77#0" expanded="true" />
+                <element signature="n#!!doc;n#LinearRegressionSpec#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IncomePredictSpec.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/neu/edu/prediction/IncomePredictSpec.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="n#!!doc;n#IncomePredictSpec#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vectors.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.11/srcs/spark-mllib_2.11-1.6.1-sources.jar!/org/apache/spark/mllib/linalg/Vectors.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="275" column="59" selection-start-line="275" selection-start-column="59" selection-end-line="275" selection-end-column="59" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,21 +149,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/neu/edu/prediction/IncomePredict.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#75#124#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -193,10 +182,13 @@
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/neu/edu/prediction/Test2.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/neu/edu/prediction/LogisticRegression.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/neu/edu/statistic/BasicStatistic.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/neu/edu/prediction/LinearRegressionSpec.scala" />
+        <option value="$PROJECT_DIR$/testData.csv" />
         <option value="$PROJECT_DIR$/src/main/scala/neu/edu/prediction/LinearRegression.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/neu/edu/prediction/LinearRegressionSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/neu/edu/prediction/IncomePredict.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/neu/edu/prediction/IncomePredictSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/neu/edu/statistic/BasicStatistic_.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/neu/edu/statistic/BasicStatistic.scala" />
       </list>
     </option>
   </component>
@@ -408,28 +400,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="neu.edu.statistic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/scala/neu/edu/statistic" />
       <recent name="$PROJECT_DIR$/src/main/scala" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IncomePredict">
-    <configuration default="false" name="LinearRegression" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="LinearRegression" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="scala_final" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BasicStatistic_">
     <configuration default="false" name="LinearRegression (1)" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -470,6 +450,21 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="IncomePredictSpec.IncomePredict should IncomePredict" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="scala_final" />
+      <setting name="path" value="IncomePredictSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="IncomePredict should IncomePredict" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="BasicStatistic" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -490,18 +485,23 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="false" name="BasicStatistic_" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="neu.edu.statistic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="neu.edu.statistic.BasicStatistic_" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="scala_final" />
-      <setting name="path" value="LinearRegressionSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="Root Mean Squared Error (RMSE) should smaller than" />
-      <setting name="testKind" value="Test name" />
-      <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
@@ -952,19 +952,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LinearRegression" />
-      <item index="1" class="java.lang.String" itemvalue="Application.LinearRegression (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Application.IncomePredict" />
+      <item index="0" class="java.lang.String" itemvalue="Application.LinearRegression (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.IncomePredict" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.IncomePredictSpec.IncomePredict should IncomePredict" />
       <item index="3" class="java.lang.String" itemvalue="Application.BasicStatistic" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BasicStatistic_" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.IncomePredict" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LinearRegression (1)" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BasicStatistic" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LinearRegression" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BasicStatistic_" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BasicStatistic" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IncomePredict" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.IncomePredictSpec.IncomePredict should IncomePredict" />
+        <item index="4" class="java.lang.String" itemvalue="Application.LinearRegression (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -1020,48 +1020,48 @@
       <workItem from="1480279969408" duration="9942000" />
       <workItem from="1480365925359" duration="21741000" />
       <workItem from="1480537556362" duration="12108000" />
-      <workItem from="1480989060080" duration="29608000" />
+      <workItem from="1480989060080" duration="39972000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinearRegressionSpec_Root_Mean_Squared_Error_(RMSE)_should_smaller_than - 2016.12.08 at 02h 09m 17s.xml">
-      <configuration name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="IncomePredictSpec_IncomePredict_should_IncomePredict - 2016.12.09 at 02h 30m 59s.xml">
+      <configuration name="IncomePredictSpec.IncomePredict should IncomePredict" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="LinearRegressionSpec_Root_Mean_Squared_Error_(RMSE)_should_smaller_than - 2016.12.08 at 02h 10m 08s.xml">
-      <configuration name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="IncomePredictSpec_IncomePredict_should_IncomePredict - 2016.12.09 at 02h 31m 29s.xml">
+      <configuration name="IncomePredictSpec.IncomePredict should IncomePredict" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="LinearRegressionSpec_Root_Mean_Squared_Error_(RMSE)_should_smaller_than - 2016.12.08 at 02h 10m 45s.xml">
-      <configuration name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LinearRegressionSpec_LinearRegression_should_degreeToString - 2016.12.09 at 02h 03m 57s.xml">
+      <configuration name="LinearRegressionSpec.LinearRegression should degreeToString" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="LinearRegressionSpec_Root_Mean_Squared_Error_(RMSE)_should_smaller_than - 2016.12.08 at 02h 11m 15s.xml">
-      <configuration name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LinearRegressionSpec_LinearRegression_should_getMax - 2016.12.09 at 01h 52m 05s.xml">
+      <configuration name="LinearRegressionSpec.LinearRegression should getMax" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="LinearRegressionSpec_Root_Mean_Squared_Error_(RMSE)_should_smaller_than - 2016.12.08 at 02h 25m 47s.xml">
-      <configuration name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LinearRegressionSpec_LinearRegression_should_getMax - 2016.12.09 at 01h 54m 16s.xml">
+      <configuration name="LinearRegressionSpec.LinearRegression should getMax" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="LinearRegressionSpec_Root_Mean_Squared_Error_(RMSE)_should_smaller_than - 2016.12.08 at 02h 26m 27s.xml">
-      <configuration name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LinearRegressionSpec_LinearRegression_should_getMax - 2016.12.09 at 01h 54m 30s.xml">
+      <configuration name="LinearRegressionSpec.LinearRegression should getMax" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="LinearRegressionSpec_Root_Mean_Squared_Error_(RMSE)_should_smaller_than - 2016.12.08 at 02h 27m 20s.xml">
-      <configuration name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LinearRegressionSpec_LinearRegression_should_getMax - 2016.12.09 at 01h 55m 04s.xml">
+      <configuration name="LinearRegressionSpec.LinearRegression should getMax" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="LinearRegressionSpec_Root_Mean_Squared_Error_(RMSE)_should_smaller_than - 2016.12.08 at 02h 55m 22s.xml">
-      <configuration name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LinearRegressionSpec_LinearRegression_should_getMax - 2016.12.09 at 02h 00m 17s.xml">
+      <configuration name="LinearRegressionSpec.LinearRegression should getMax" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="LinearRegressionSpec_Root_Mean_Squared_Error_(RMSE)_should_smaller_than - 2016.12.08 at 02h 55m 45s.xml">
-      <configuration name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LinearRegressionSpec_LinearRegression_should_getMax - 2016.12.09 at 02h 04m 13s.xml">
+      <configuration name="LinearRegressionSpec.LinearRegression should getMax" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="LinearRegressionSpec_Root_Mean_Squared_Error_(RMSE)_should_smaller_than - 2016.12.08 at 02h 57m 00s.xml">
-      <configuration name="LinearRegressionSpec.Root Mean Squared Error (RMSE) should smaller than" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="LinearRegressionSpec_LinearRegression_should_parseString - 2016.12.09 at 02h 04m 19s.xml">
+      <configuration name="LinearRegressionSpec.LinearRegression should parseString" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79855000" />
+    <option name="totallyTimeSpent" value="90219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1073,7 +1073,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38630137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38630137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1114,7 +1114,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/neu/edu/prediction/IncomePredict.scala</url>
-          <line>30</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -1363,14 +1363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.11/srcs/spark-mllib_2.11-1.6.1-sources.jar!/org/apache/spark/mllib/linalg/Vectors.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="271" column="25" selection-start-line="271" selection-start-column="17" selection-end-line="271" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2016-FCC-New-Coders-Survey-Data.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1403,10 +1395,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testData.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-3.0.0-sources.jar!/org/scalatest/words/MatcherWords.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="254" column="6" selection-start-line="254" selection-start-column="6" selection-end-line="254" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.11/srcs/spark-mllib_2.11-1.6.1-sources.jar!/org/apache/spark/mllib/linalg/Vectors.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="275" column="59" selection-start-line="275" selection-start-column="59" selection-end-line="275" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/neu/edu/prediction/IncomePredictSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!doc;n#IncomePredictSpec#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/neu/edu/prediction/LinearRegressionSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#28#77#0" expanded="true" />
+            <element signature="n#!!doc;n#LinearRegressionSpec#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/neu/edu/prediction/IncomePredict.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#75#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/neu/edu/prediction/LinearRegression.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        <state relative-caret-position="367">
+          <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
           <folding>
             <element signature="e#28#72#0" expanded="true" />
             <element signature="n#!!doc;n#LinearRegression$#0;n#!!top" expanded="false" />
@@ -1416,30 +1465,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/neu/edu/statistic/BasicStatistic.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="1026">
+          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/neu/edu/prediction/IncomePredict.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/neu/edu/statistic/BasicStatistic_.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="-119">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#75#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/neu/edu/prediction/LinearRegressionSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="n#!!doc;n#LinearRegressionSpec#0" expanded="false" />
+            <element signature="e#27#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
