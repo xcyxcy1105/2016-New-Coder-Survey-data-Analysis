@@ -42,12 +42,13 @@ object LinearRegression {
     val sc = new SparkContext(conf)
     val dataLine = sc.textFile(sourceFile).map(line => line.split(";")).cache()
 
+    val maxIncome = getMax(10, dataLine)
     val maxAge = getMax(0, dataLine)
     val maxHoursLearning = getMax(9, dataLine)
     val maxMonthsProgramming = getMax(17, dataLine)
     val parsedData = dataLine
       .filter(records => records(0) != "NA" && records(10) != "NA" && records(9) != "NA" && records(17) != "NA" && records(18) != "NA" && records(11) != "NA")
-      .map(records => LabeledPoint(records(10).toDouble, Vectors.dense(records(0).toDouble / maxAge, records(9).toDouble / maxHoursLearning, records(17).toDouble / maxMonthsProgramming,
+      .map(records => LabeledPoint(records(10).toDouble / maxIncome, Vectors.dense(records(0).toDouble / maxAge, records(9).toDouble / maxHoursLearning, records(17).toDouble / maxMonthsProgramming,
         parseString(records(11), "1", "0"), degreeToString(records(18)))))
 
     val splits = parsedData.randomSplit(Array(0.8, 0.2))
@@ -59,7 +60,7 @@ object LinearRegression {
     val algorithm = new LinearRegressionWithSGD()
     algorithm.optimizer
       .setNumIterations(50)
-      .setStepSize(1.0)
+      .setStepSize(10.0)
     val model = algorithm.run(trainingData)
 
     val prediction = model.predict(testData.map(_.features))

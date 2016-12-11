@@ -27,5 +27,6 @@ object IncomePredict extends App {
   val testVector = vectorParser(testData)
 
   val prediction = model.predict(sc.parallelize(testVector))
-  prediction.foreach(println)
+  val output = prediction.map(_ * 200000)
+  output.foreach(println)
 }
